@@ -1,0 +1,23 @@
+{
+    "name": "maileva/maileva",
+    "description": "Package for maileva",
+    "authors": [
+        {
+            "name": "Vincent22",
+            "email": "vincent.toudic@smartmoov.solutions"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "maileva\\": "src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Providers\\MailevaServiceProvider"
+            ]
+        }
+    }
+}
