@@ -13,11 +13,4 @@
         }
     },
     "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Providers\\MailevaServiceProvider"
-            ]
-        }
-    }
 }
