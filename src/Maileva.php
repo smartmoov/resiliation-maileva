@@ -10,7 +10,7 @@
  * PHP version 7.1
  */
 
-namespace App\Models\Router;
+namespace maileva;
 
 use App\Events\Accept;
 use App\Events\Poste;
