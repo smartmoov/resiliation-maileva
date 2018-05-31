@@ -14,6 +14,7 @@ namespace maileva;
 
 use App\Events\Accept;
 use App\Events\Poste;
+use App\Models\Router\Router;
 use App\Models\Spool;
 use App\Models\Spooling\MailevaFTP;
 use App\Models\Tracking;
