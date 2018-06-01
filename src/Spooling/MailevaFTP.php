@@ -19,7 +19,7 @@ namespace maileva\Spooling;
 
 use App\Models\Errors;
 use App\Models\Spool;
-use App\WebServices\MailevaServiceFTP;
+use maileva\WebServices\MailevaServiceFTP;
 use Illuminate\Support\Facades\Storage;
 
 /**

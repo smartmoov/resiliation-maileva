@@ -18,7 +18,7 @@ use App\Models\Router\Router;
 use App\Models\Spool;
 use maileva\Spooling\MailevaFTP;
 use App\Models\Tracking;
-use App\WebServices\MailevaServiceFTP;
+use maileva\WebServices\MailevaServiceFTP;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\Log;
