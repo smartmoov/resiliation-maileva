@@ -10,13 +10,13 @@
  * PHP version 7.1
  */
 
-namespace maileva;
+namespace maileva\Router;
 
 use App\Events\Accept;
 use App\Events\Poste;
 use App\Models\Router\Router;
 use App\Models\Spool;
-use App\Models\Spooling\MailevaFTP;
+use maileva\Spooling\MailevaFTP;
 use App\Models\Tracking;
 use App\WebServices\MailevaServiceFTP;
 use Carbon\Carbon;

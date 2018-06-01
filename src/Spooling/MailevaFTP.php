@@ -15,7 +15,7 @@
  * @link     https://resilier.online
  */
 
-namespace App\Models\Spooling;
+namespace maileva\Spooling;
 
 use App\Models\Errors;
 use App\Models\Spool;
