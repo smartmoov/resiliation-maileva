@@ -177,7 +177,7 @@ class Maileva extends Router
         $xml = simplexml_load_string(file_get_contents(Storage::path(self::STORAGE_RETOUR_MAILEVA . $spool->num_unique . '.xml')));
         $request = $xml->Request;
 
-        if ($request->Status == Tracking::ACCEPT || $request->Status == POSTE::OK) {
+        if ($request->Status == Tracking::ACCEPT || $request->Status == Tracking::OK) {
             return array(
                 'spool' => $request->TrackId,
                 'spool_maileva' => $request->DepositId,
